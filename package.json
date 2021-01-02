@@ -2,7 +2,7 @@
   "name": "BMI",
   "version": "1.0.0",
   "description": "bmi calculator",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/LucasKnudsen/bmi.git",
   "author": "Lucas <laksteelhouse@gmail.com>",
   "license": "MIT",
