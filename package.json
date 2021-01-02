@@ -1,0 +1,19 @@
+{
+  "name": "BMI",
+  "version": "1.0.0",
+  "description": "bmi calculator",
+  "main": "index.js",
+  "repository": "https://github.com/LucasKnudsen/bmi.git",
+  "author": "Lucas <laksteelhouse@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.2.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.1.0"
+  },
+  "scripts": {
+    "start": "superstatic src --port 4000",
+    "cy:open": "yarn start & cypress open"
+  }
+}
