@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lucasknudsen.github.io/bmi/",
   "name": "BMI",
   "version": "1.0.0",
   "description": "bmi calculator",
@@ -7,12 +8,15 @@
   "author": "Lucas <laksteelhouse@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^6.2.0"
+    "cypress": "^6.2.0",
+    "gh-pages": "^3.1.0"
   },
   "dependencies": {
     "superstatic": "^7.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "superstatic src --port 4000",
     "cy:open": "yarn start & cypress open"
   }
